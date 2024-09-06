@@ -1,6 +1,6 @@
 ﻿using Auto;
-    string username = "18576268305";
-    string password = "gongqwe123";
+    string username = "";
+    string password = "";
 
     var tokenResult = await Token.GetToken(username, password);
     if (tokenResult.Item1)
